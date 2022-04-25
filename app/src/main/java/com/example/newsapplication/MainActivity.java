@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements CategoryRVAdapter
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         newsRV = findViewById(R.id.idRVNews);
         cateoryRV = findViewById(R.id.idRVCategories);
         loadingPB = findViewById(R.id.idPBloading);
